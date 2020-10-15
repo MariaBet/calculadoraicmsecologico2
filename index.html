@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="1341880.png" sizes="180x180" href="imagens/1341880.png" />
+    <title>icmsecologico</title>
+  </head>
+  <body>
+
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/mataatlantica.jpg" width="2800" height="1890" alt=""/>
+            </div>
+            <div class="banner">
+                <h1>Calculadora de ICMS Ecologico</h1>
+                <p>Saiba quanto dinheiro conservar a natureza rende na sua cidade</p>
+                <button>Quanto já foi ganho? Quanto ainda pode ser distribuído?</button>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#conhecimentos" class="menu-link">ICMS</a></li>
+                        <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                        <li class="menu-item"><a href="#contato" class="menu-link">Calculadora</a></li>
+
+                </ul>
+                 </nav>
+             </aside>
+
+                <section class="sessao-contato" id="contato">
+                    <div class="contato-wrapper">
+                      <div class="contato-left"></div>
+                      <div class="contato-right">
+                      <div id="city-form">
+                            <form>
+                            <p>Selecione:</p>
+
+                          <label for="state">Estado</label>
+                                <select id="state" name="state">
+                                 <option value="Sao Paulo">Sao Paulo</option>
+                                <option value="Parana">Parana</option>
+                                 <option value="Santa Catarina">Santa Catarina</option>
+                                </select>
+
+                             <label for="city">Cidade</label>
+                            <select id="city" name="city">
+                             <option value="Sao Paulo">Sao Paulo</option>
+                            <option value="Curitiba">Curitiba</option>
+                            <option value="Joinville">Joinville</option>
+                            <option value="Ponta Grossa">Ponta Grossa</option>
+                            <option value="Guaraquecaba">Guaraquecaba</option>
+                            </select>
+                            </div>
+                        </form>
+                    </section>
+                        <br>
+                        <br>
+
+                        <section class="comparison"
+                            <div id="comparison">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td><h3 id=past-title>Passado</h3></td>
+                                        <td class="divider-row"></td>
+                                        <td><h3 id=future-title>Futuro</h3></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="past-content">
+                                                <img id="graphic" src="https://flourish.studio/images/newsletters/bar_chart_race.gif">
+                                            </div>
+                                        </td>
+                                        <td class="divider-row" id="divider-line">
+                                        </td>
+                                        <td id="future">
+                                            <div >
+                                                <div id="calculator">
+                                                    <form method="POST" action="../api/result/1">
+                                                        <label for="area">Area:</label>
+                                                        <input id="area" name="area" type="text" class="right-align"></input>
+                                                        <br>
+                                                        <br>
+
+                                                        <label for="quality">Qualidade:</label>
+                                                        <input id="quality" name="quality" type="text" class="right-align"></input>
+                                                        <br>
+                                                        <br>
+
+                                                        <input type="submit" value="Enviar">
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        <td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
+                      </div>
+                    </div>
+                  </section>
+
+                <section class="sessao-conhecimentos" id="conhecimentos">
+                  <div class="sessao-header">
+                    <h1>O que é o ICMS Ecológico</h1>
+                  </div>
+                  <div class="conhecimentos">
+                    <div class="conhecimento">
+                      <div class="conhecimento-header">
+               </div>
+              </section>
+
+
+              <div class="sessao-projetos" id="projetos">
+               <div class="sessao-header">
+                 <h1>Projetos </h1>
+               </div>
+               <div class="projetos">
+                 <div class="card">
+                   <div class="card-img-wrapper">
+                     <img src="imagens/p.png" alt="p" />
+                   </div>
+                   <div class="card-info">
+                     <h2>aRede</h2>
+                     <h3>Icms ecoligico</h3>
+                     <p>ICMS Ecológico traz recursos para Prefeitura local e de outras 214 cidades paranaenses</p>
+                     <button class="btn">Saiba Mais</button>
+                   </div>
+                 </div>
+                 <div class="card">
+                   <div class="card-img-wrapper">
+                     <img src="imagens/p.png" alt="p" />
+                   </div>
+                   <div class="card-info">
+                     <h2>informações</h2>
+                     <h3>texto</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero voluptas ipsam ullam consectetur ab facilis cumque.</p>
+                     <button class="btn">Saiba Mais</button>
+                   </div>
+                 </div>
+                 <div class="card">
+                   <div class="card-img-wrapper">
+                     <img src="imagens/p.png" alt="p" />
+                   </div>
+                   <div class="card-info">
+                     <h2>informação 3</h2>
+                     <h3>ICMS</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
+                     <button class="btn">Saiba Mais</button>
+                 </div>
+          </div>
+        </div>
+
+      </section>
+      <div class="social-list">
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+        <footer>
+        <div class="footer-content">
+                  <p>
+                    Copyright &copy; 2020, Calculadora Ecológica - Todos os diretos reservados
+                  </p>
+                  <a href="#home" id="link-topo">
+                   <i class="fas fa-arrow-up"></i>
+                 </a>
+            </div>
+        </body>
